@@ -22,8 +22,14 @@ export const styles = StyleSheet.create({
   box: {
     width: 100,
     height: 100,
-    padding: 10,
+    //padding: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 20,
+    marginVertical: 10,
     backgroundColor: "pink",
+    borderWidth: 2,
+    borderColor: "purple",
+    borderRadius: 5,
   },
   lightblueBg: {
     backgroundColor: "lightblue",
