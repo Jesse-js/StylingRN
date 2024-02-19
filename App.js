@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style={[styles.box, styles.lightblueBg]}>
+      <View style={[styles.lightblueBg, styles.box]}>
         <Text>Lightblue box</Text>
       </View>
       <View style={[styles.box, styles.lightgreenBg]}> 
@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
     width: 100,
     height: 100,
     padding: 10,
+    backgroundColor: "pink",
   },
   lightblueBg: {
     backgroundColor: "lightblue",
